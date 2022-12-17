@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+.snake{
+    height: 100vh;
+    width: 100vw;
+    background-color: #353336;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.snake__score{
+    background-color: #121214;
+    margin: 20px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.snake__score-field{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#D21855;
+    font-size: 2rem;
+}
+.snake__playboard{
+    border-radius: 5px;
+    background-color: #121214;
+    border: 10px solid #161618;
+    box-shadow: 0 0 40px 10px #161618;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.2'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23525053'/%3E%3C/g%3E%3C/svg%3E%0A");
+    
+}
+.snake__canvas{
+    display: block;
+    border-radius: 5px;
+}
